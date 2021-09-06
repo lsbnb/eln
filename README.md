@@ -20,7 +20,8 @@ ELN are software programs designed to replace paper laboratory notebooks. Compar
 
 ### (1) elnctl : You can use this shell script to access ELN
 ### (2) How to get elnctl
-
+####   (a) You can get from github. https://github.com/lsbnb/eln/blob/main/elnctl
+####   (b) You can get from docker image.
      Step1. docker pull lsbnb/eln
      Step2. docker run -d --name=eln -t -i lsbnb/eln
      Step3. docker cp eln:/usr/local/bin/elnctl $(pwd)
