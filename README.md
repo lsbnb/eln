@@ -57,11 +57,11 @@ ELN are software programs designed to replace paper laboratory notebooks. Compar
 ------
    
 ### ▲Backup system
-
+![eln_github3](https://user-images.githubusercontent.com/51230850/132172693-4c283095-83d3-4fbc-83e7-9cdd4f6f810f.png)
 ------
 
 ### ▲Restore system
-
+![eln_github4](https://user-images.githubusercontent.com/51230850/132172714-78e659eb-2da5-4729-be7c-eb4ec7f5d6b1.png)
 ------
 
 
