@@ -1,5 +1,4 @@
-# eln
-### Electronic Laboratory Notebook
+# Electronic Laboratory Notebook
 ### This project is provided by Institute of Information Science, Academia Sinica.
 ### Contact information:
 ##### Chung-Yen Lin (cylin@iis.sinica.edu.tw); LAB website: http://eln.iis.sinica.edu.tw
