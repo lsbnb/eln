@@ -6,8 +6,10 @@
 ##### Shu-Hwa Chen (sophia.emily@gmail.com)
 ##### Chih-Wei Huang (tima@iis.sinica.edu.tw)
 ##### Wei Hsuan Chuang  (ccshaney@iis.sinica.edu.tw)
-### Image link from Docker hub
-##### https://hub.docker.com/r/lsbnb/eln
+### ELN Document  
+##### https://elncloud.iis.sinica.edu.tw/eln_document  
+### Image link from Docker hub  
+##### https://hub.docker.com/r/lsbnb/eln  
 ------
 
 ### ▲Description
@@ -19,14 +21,14 @@ ELN are software programs designed to replace paper laboratory notebooks. Compar
 
 ### ▲Installation & Setup: (In Ubuntu or other linux)
 
-### (1) elnctl : You can use this shell script to access ELN
-### (2) How to get elnctl
-####   (a) You can get from github. https://github.com/lsbnb/eln/blob/main/elnctl
+### (1) Download image from docker hub   ([Install Docker Environment](https://www.docker.com/get-started))
+    docker pull lsbnb/eln
+### (2) elnctl : You can use this shell script to access ELN
+####   (a) How to get elnctl? You can get from github. https://github.com/lsbnb/eln/blob/main/elnctl
 ####   (b) You can get from docker image.
-     Step1. docker pull lsbnb/eln
-     Step2. docker run -d --name=eln -t -i lsbnb/eln
-     Step3. docker cp eln:/usr/local/bin/elnctl $(pwd)
-     Step4. docker rm -f eln
+     Step1. docker run -d --name=eln -t -i lsbnb/eln
+     Step2. docker cp eln:/usr/local/bin/elnctl $(pwd)
+     Step3. docker rm -f eln
 
 ### (3) You can use below instructions to install, start, stop and uninstall ELN.
      Install ELN         : ./elnctl install
