@@ -14,7 +14,7 @@
 ###############################################################
 #    <How to get elnctl>
 #    docker pull lsbnb/eln
-#    docker run -d --name=eln -t -i lsbnb/eln
+#    docker run --name=eln -dti lsbnb/eln bash
 #    docker cp eln:/usr/local/bin/elnctl $(pwd)
 #    docker rm -f eln
 ###############################################################
@@ -29,10 +29,10 @@ function install()
         read -p "Do you want to install ELN? (Y/N)  " yn
         case $yn in
             [Yy]* ) docker pull lsbnb/eln;
-                    docker run -d --name=eln -t -i lsbnb/eln;
+                    docker run --name=eln -dti lsbnb/eln bash;
                     mkdir data
                     docker cp eln:/var/lib/mysql $(pwd)/data;
-                    docker cp eln:/var/www/html/eln/sites/default/files $(pwd)/data;
+                    docker cp eln:/var/www/html/elnmobile/sites/default/files $(pwd)/data;
                     chmod -R 777 ./data;
                     docker rm -f eln;
                     start;
@@ -67,10 +67,10 @@ function start()
       case "$num" in 
         [1-9][0-9]*)
             stop;
-            docker run -d --name=eln -t -i -p "$num":80 -v $pathfile -v $pathmysql lsbnb/eln;
+            docker run --name=eln -dti -p "$num":80 -v $pathfile -v $pathmysql lsbnb/eln bash;
             #docker run -d --name=eln -t -i -p "$num":80 lsbnb/eln;
             docker exec eln service apache2 start;
-            docker exec eln service mysql start;
+            docker exec eln service mysql start &
             echo "Start ELN Service. Your ELN URL is http://your ip:""$num";
             break;;
        *  )
@@ -86,7 +86,7 @@ function stop()
 
 function version()
 {
-    echo "ELN Docker Version:3.1.1";
+    echo "ELN Docker Version:3.2.2";
 }
 
 function help()
