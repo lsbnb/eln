@@ -2,7 +2,7 @@
 # http://eln.iis.sinica.edu.tw/eln
 
 ###############################################################
-#    ELN Docker Version 3.1.1
+#    ELN Docker Version 3.2.2
 #    Install ELN       : elnctl install
 #    Start ELN Service : elnctl start
 #    Stop ELN Service  : elnctl stop
