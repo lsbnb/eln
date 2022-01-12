@@ -8,6 +8,8 @@
 ##### Wei Hsuan Chuang  (ccshaney@iis.sinica.edu.tw)
 ### ELN Document  
 ##### https://elncloud.iis.sinica.edu.tw/eln_document  
+### ELN Demo Site
+##### https://elncloud.iis.sinica.edu.tw/ 
 ### Image link from Docker hub  
 ##### https://hub.docker.com/r/lsbnb/eln  
 ------
@@ -17,5 +19,5 @@ ELN are software programs designed to replace paper laboratory notebooks. Compar
 
 ![eln_github1](https://user-images.githubusercontent.com/51230850/132170222-aa098950-c54e-4815-bacf-e326e0d34389.png)
 
-![eln_github2](https://eln.iis.sinica.edu.tw/lims/files/users/ccshaney/eln_modules.png)
+![eln_github2](https://eln.iis.sinica.edu.tw/lims/files/all/eln/jacs_abstract_photo300.png)
 
