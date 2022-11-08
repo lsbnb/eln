@@ -19,5 +19,5 @@ ELN are software programs designed to replace paper laboratory notebooks. Compar
 
 ![eln_github1](https://user-images.githubusercontent.com/51230850/132170222-aa098950-c54e-4815-bacf-e326e0d34389.png)
 
-![eln_github2](https://eln.iis.sinica.edu.tw/lims/files/all/eln/jacs_abstract_photo300.png)
+![eln_github2](https://ars.els-cdn.com/content/image/1-s2.0-S2589004222009828-fx1_lrg.jpg)
 
